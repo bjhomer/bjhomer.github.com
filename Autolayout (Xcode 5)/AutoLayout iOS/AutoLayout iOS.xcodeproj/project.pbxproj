@@ -15,13 +15,13 @@
 		B7BE00E317FD24A600FD3D10 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B7BE00E217FD24A600FD3D10 /* AppDelegate.m */; };
 		B7BE00E617FD24A600FD3D10 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B7BE00E417FD24A600FD3D10 /* Main.storyboard */; };
 		B7BE00E917FD24A600FD3D10 /* MasterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B7BE00E817FD24A600FD3D10 /* MasterViewController.m */; };
-		B7BE00EC17FD24A600FD3D10 /* DetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B7BE00EB17FD24A600FD3D10 /* DetailViewController.m */; };
 		B7BE00EE17FD24A600FD3D10 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B7BE00ED17FD24A600FD3D10 /* Images.xcassets */; };
 		B7BE00F517FD24A600FD3D10 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B7BE00F417FD24A600FD3D10 /* XCTest.framework */; };
 		B7BE00F617FD24A600FD3D10 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B7BE00D217FD24A600FD3D10 /* Foundation.framework */; };
 		B7BE00F717FD24A600FD3D10 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B7BE00D617FD24A600FD3D10 /* UIKit.framework */; };
 		B7BE00FF17FD24A600FD3D10 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = B7BE00FD17FD24A600FD3D10 /* InfoPlist.strings */; };
 		B7BE010117FD24A600FD3D10 /* AutoLayout_iOSTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B7BE010017FD24A600FD3D10 /* AutoLayout_iOSTests.m */; };
+		B7BE010C17FD26BC00FD3D10 /* Demo1Controller.m in Sources */ = {isa = PBXBuildFile; fileRef = B7BE010B17FD26BC00FD3D10 /* Demo1Controller.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,14 +48,14 @@
 		B7BE00E517FD24A600FD3D10 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		B7BE00E717FD24A600FD3D10 /* MasterViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MasterViewController.h; sourceTree = "<group>"; };
 		B7BE00E817FD24A600FD3D10 /* MasterViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MasterViewController.m; sourceTree = "<group>"; };
-		B7BE00EA17FD24A600FD3D10 /* DetailViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DetailViewController.h; sourceTree = "<group>"; };
-		B7BE00EB17FD24A600FD3D10 /* DetailViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DetailViewController.m; sourceTree = "<group>"; };
 		B7BE00ED17FD24A600FD3D10 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		B7BE00F317FD24A600FD3D10 /* AutoLayout iOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "AutoLayout iOSTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		B7BE00F417FD24A600FD3D10 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		B7BE00FC17FD24A600FD3D10 /* AutoLayout iOSTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "AutoLayout iOSTests-Info.plist"; sourceTree = "<group>"; };
 		B7BE00FE17FD24A600FD3D10 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		B7BE010017FD24A600FD3D10 /* AutoLayout_iOSTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AutoLayout_iOSTests.m; sourceTree = "<group>"; };
+		B7BE010A17FD26BC00FD3D10 /* Demo1Controller.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Demo1Controller.h; sourceTree = "<group>"; };
+		B7BE010B17FD26BC00FD3D10 /* Demo1Controller.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Demo1Controller.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -120,8 +120,8 @@
 				B7BE00E417FD24A600FD3D10 /* Main.storyboard */,
 				B7BE00E717FD24A600FD3D10 /* MasterViewController.h */,
 				B7BE00E817FD24A600FD3D10 /* MasterViewController.m */,
-				B7BE00EA17FD24A600FD3D10 /* DetailViewController.h */,
-				B7BE00EB17FD24A600FD3D10 /* DetailViewController.m */,
+				B7BE010A17FD26BC00FD3D10 /* Demo1Controller.h */,
+				B7BE010B17FD26BC00FD3D10 /* Demo1Controller.m */,
 				B7BE00ED17FD24A600FD3D10 /* Images.xcassets */,
 				B7BE00D917FD24A600FD3D10 /* Supporting Files */,
 			);
@@ -256,8 +256,8 @@
 			files = (
 				B7BE00E317FD24A600FD3D10 /* AppDelegate.m in Sources */,
 				B7BE00E917FD24A600FD3D10 /* MasterViewController.m in Sources */,
+				B7BE010C17FD26BC00FD3D10 /* Demo1Controller.m in Sources */,
 				B7BE00DF17FD24A600FD3D10 /* main.m in Sources */,
-				B7BE00EC17FD24A600FD3D10 /* DetailViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
